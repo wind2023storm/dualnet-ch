@@ -1,1 +1,1 @@
-# dualnet-ch
+# Dualnet

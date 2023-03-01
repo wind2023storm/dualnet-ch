@@ -1,0 +1,90 @@
+.signin-panel {
+    display: flex;
+}
+
+.signin-box {
+    margin: 1rem 2rem 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%; 
+}
+
+.signin-header {
+    position: relative;
+    font-size: 3rem;
+    margin: 2rem 0rem .5rem;
+    color: #9c59f5;
+    font-weight: normal;
+}
+
+.signin-preheader {
+    position: relative;
+    margin: .4rem 1rem 1rem 1rem;
+    font-weight:900;
+    font-size: 1.55rem;
+    color: #fff;
+}
+
+.form-panel {
+    margin: 2rem 0rem 2rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 60%;
+    min-width: -webkit-fill-available;
+    min-height: 160px;
+}
+
+.form-group {
+    width:80%
+}
+
+.form-group .form-label {
+    font-size: 1.23rem;
+    align-self: flex-start;
+    margin: 0 0 2 0;
+}
+
+.form-input {
+    color: #fff !important;
+    padding: .3rem .1rem;
+    font-size: 1.19rem;
+}
+
+.form-input::before {
+    border-color: #fff;
+}
+
+.css-yuvzua-MuiInputBase-root-MuiInput-root:hover:not(.Mui-disabled, .Mui-error):before  {
+    border-bottom: 2px solid #ffffff69;
+}
+
+.form-input input {
+    color: #fff;
+}
+
+.form-input input::placeholder {
+    color: #fff;
+    opacity: .75;
+    font-size: 1.14rem;
+}
+
+.signinBtn {
+    background: linear-gradient(to right, #06c3fe, #d827e8)!important;
+    width: 65%;
+    font-size: 1.5rem;
+    padding-block: .2rem;
+    border-radius: 1rem;
+    transition: .3s;
+}
+
+.signinBtn:hover {
+    letter-spacing: .1rem;
+    width: 67%;
+}
+
+.css-i4bv87-MuiSvgIcon-root {
+    fill: #fff;
+}

@@ -1,0 +1,255 @@
+.dashboard-detail-info {
+	margin: 1rem 0rem 1rem 0rem;
+	padding: 0rem 1rem 0rem 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-color: #171820;
+	overflow: auto;
+	white-space: nowrap;
+}
+
+.dashboard-item {
+	margin: 0.5rem 0rem 1rem 0rem;
+	padding: 0rem 1rem 0rem 1rem;
+	display: flex;
+	justify-content: space-around;
+	background-color: #171820;
+	overflow: auto;
+	white-space: nowrap;
+}
+
+.item-header {
+	display: flex;
+	margin: 0 0 0 3.3rem;
+}
+
+.itemField {
+	display: flex;
+	margin: 0.5rem 2px 0.5rem 2px;
+	justify-content: flex-start;
+	flex-direction: column;
+}
+
+.itemDot {
+	display: flex;
+	margin: 1rem 2px 12px 2px;
+	justify-content: flex-end;
+	flex-direction: column;
+}
+
+.type-panel {
+	display: flex;
+	align-items: self-end;
+	flex-direction: column;
+}
+
+.rate-panel {
+	display: flex;
+	justify-content: space-between;
+}
+
+.css-3ffjvn-MuiButtonBase-root-MuiIconButton-root {
+	padding: 0px 5px 0px 5px;
+}
+
+.dashboard-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	flex-direction: row;
+}
+
+.type-panel-item {
+	display: flex;
+	margin: 0rem 2px 1px 2px;
+	justify-content: flex-start;
+	flex-direction: row;
+}
+
+.item-field-divider {
+	width: 0%;
+	margin: 20px 2px 20px 2px;
+}
+
+.dot {
+	width: 12px;
+	height: 12px;
+	margin: 0rem 0rem 6px 0rem;
+	border-radius: 100%;
+}
+.square {
+	width: 15px;
+	height: 15px;
+	margin: 1px 1px 0px 0px;
+}
+
+.action-btn {
+	justify-content: flex-end;
+	display: flex;
+	flex-direction: column;
+	padding: 0rem 0rem 18px 1rem;
+}
+
+.pagination {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.page-select {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background-color: transparent;
+}
+
+.css-1nizu3a-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root {
+	background: transparent;
+}
+
+.css-jvc7vx-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+	background: transparent;
+	color: #ffffff;
+}
+
+.css-hfutr2-MuiSvgIcon-root-MuiSelect-icon {
+	color: #ffffff;
+}
+
+.css-14qh0u1-MuiOutlinedInput-notchedOutline {
+	border-color: #ffffff;
+}
+
+.img-20 {
+	width: 20px;
+	height: 20px;
+}
+
+.css-fevlpn-MuiButtonBase-root-MuiPaginationItem-root {
+	color: rgb(246, 246, 250);
+}
+
+.css-1f2zju7-MuiButtonBase-root-MuiPaginationItem-root {
+	color: rgb(246, 246, 250);
+	min-width: 16px;
+	height: 20px;
+}
+
+.css-13q7384-MuiPaginationItem-root {
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	min-width: 10px;
+}
+
+.img-dashboard {
+	margin: 0rem 0rem 1rem 2.2rem;
+	width: 200px;
+	height: 40px;
+}
+
+.flex-space-between {
+	display: flex;
+	justify-content: space-between;
+}
+
+.swap-panel {
+	display: flex;
+	flex-direction: row;
+	height: 40px;
+}
+
+.rate-box {
+	display: flex;
+	flex-direction: row;
+	height: 40px;
+}
+
+/* Mui Pagination Item */
+
+.css-17fiq3t-MuiButtonBase-root-MuiPaginationItem-root {
+	color: #000;
+	border: none;
+	background: #ffffff3b;
+}
+
+.css-17fiq3t-MuiButtonBase-root-MuiPaginationItem-root:hover {
+	background: #ffffff27;
+}
+
+/* Mui Pagination Item Selected */
+
+.css-17fiq3t-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
+	background-color: #00e676;
+	color: #000;
+	border: none;
+}
+
+.css-17fiq3t-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected:hover {
+	background-color: #00e6779d;
+}
+
+.css-13q7384-MuiPaginationItem-root {
+	margin-inline: 1rem;
+}
+
+.css-14qh0u1-MuiOutlinedInput-notchedOutline {
+	border: none;
+}
+
+/* MUI Open State Icon */
+
+.css-bpeome-MuiSvgIcon-root-MuiSelect-icon {
+	fill: #fff;
+}
+
+.detail-header-label {
+	background: hsla(271, 68%, 48%, 1);
+	background: linear-gradient(
+		90deg,
+		hsla(271, 68%, 48%, 1) 0%,
+		hsla(214, 79%, 58%, 1) 100%
+	);
+	background-size: 100%;
+	background-repeat: repeat;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-moz-background-clip: text;
+	-moz-text-fill-color: transparent;
+	font-weight: 400;
+	font-size: 2.55rem;
+	margin: 0 0 0.7rem 3.2rem;
+	user-select: none;
+}
+
+.dashboard-data::-webkit-scrollbar {
+	height: 0;
+}
+
+@media only screen and (max-width: 585px) {
+	.swap-panel {
+		flex-direction: column;
+	}
+	.rate-box {
+		justify-content: space-evenly;
+	}
+	.type-panel {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 585px) {
+	.body-footer-1 {
+		display: none;
+	}
+	.body-footer-2 {
+		display: flex;
+		justify-content: space-around;
+	}
+	.body-footer-2-1 {
+		display: none;
+	}
+	.body-footer-3 {
+		display: none;
+	}
+}
