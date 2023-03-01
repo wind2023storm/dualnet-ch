@@ -2,7 +2,7 @@
     "name": "dualnet",
     "version": "0.0.1",
     "private": true,
-    "homepage": "https://29669-44700.76.prepaid-webspace.de/signin",
+    "homepage": "/",
     "dependencies": {
         "@emotion/cache": "^11.9.3",
         "@emotion/react": "^11.9.3",
